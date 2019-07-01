@@ -1,0 +1,255 @@
+.body
+{
+  margin: 0px;
+}
+.header
+{
+  position: relative;
+  width: 100%;
+  background: #333;
+  color: lightgrey;
+  display: block;
+}
+.header_image{
+  height: 23px;
+}
+.header_text
+{
+  color:gray;
+  border-color: white
+  border:5px;
+}
+nav a
+{
+  left :30px;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 25px;
+  display: inline-block;
+  font-family: SourceSansPro-Black;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: solid #404040 2px;
+}
+.background_image
+{
+    position: relative;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height:500px;
+}
+.wall_painting_right
+{
+  position: absolute;
+  top: 90px;
+  right: 80px;
+    border:5px solid #2F4F4F   ;
+    height: 150px;
+}
+.wall_painting_mid
+{
+  position: absolute;
+  top: 90px;
+  right: 180px;
+  border:5px solid #8B4513    ;
+}
+.wall_painting_left
+{
+  position: absolute;
+  top: 120px;
+  right: 360px;
+  border:5px solid #2F4F4F;
+  height: 105px
+}
+.image_table
+{
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+.text_your_moods
+{
+  position: absolute;
+  color:white;
+  top: 250px;
+  left: 40px;
+  font-family: SourceSansPro-Bold;
+  font-weight: bold;
+  font-size: 55px;
+}
+.text_so_should
+{
+  position: absolute;
+  color: white;
+  top: 330px;
+  left: 60px;
+  font-family: SourceSansPro-Semibold;
+  font-weight: bold;
+  font-size: 28px;
+}
+.button_view_gallary
+{
+  position: absolute;
+  top: 390px;
+  left: 60px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: SourceSansPro-Black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button_join_now
+{
+  position: absolute;
+  top: 390px;
+  left: 260px;
+  background-color: #F4A460;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: SourceSansPro-Black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.division_second_half
+{
+  position: relative;
+  top: 20px;
+  left: 0px;
+  height:450px;
+  text-align: center;
+}
+.text
+{
+  text-align: center;
+  font-family: SourceSansPro-Bold;
+  font-weight: bold;
+  font-size: 30px;
+}
+.icon_circle
+{
+  height: 110px;
+  width: 110px;
+  background-color: #DCDCDC;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin: 65px;
+}
+.computer_icon
+{
+  padding: 22px;
+  margin-top: 10px;
+}
+.home_icon
+{
+  padding: 22px;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.picture_icon
+{
+  padding: 22px;
+  margin-top: 8px;
+  margin-right: 2px;
+}
+.return_icon
+{
+  padding: 22px;
+  margin-top: 13px;
+  margin-right: 12px;
+}
+.circle_text
+{
+  height: 50px;
+  width: 148px;
+  background-color:white;
+  border: 1px;
+  display: inline-block;
+  text-align: center;
+  margin: 45px;
+  font-family: SourceSansPro-ExtraLight;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: -30px;
+}
+.footer
+{
+  background: #DCDCDC;
+  padding: 10px;
+  color: #808080  ;
+  bottom: 0;
+  height: 100px;
+}
+.footer_text
+{
+  height: 20px
+  width: 300px;
+  color: #808080;
+  background-color: #DCDCDC;
+  display: inline-block;
+  margin:10px;
+  font-family: SourceSansPro-ExtraLight;
+  font-weight: bold;
+  font-size: 15px;
+}
+.footerHome
+{
+  height: 30px
+  width: 90px;
+  color: black;
+  font-family: SourceSansPro-Bold;
+  font-weight: bold;
+  font-size: 15px;
+  margin:10px;
+  border-color: black
+}
+.footerLinks
+{
+  height: 30px
+  width: 90px;
+  color: #D2691E;
+  text-decoration: none;
+  font-family: SourceSansPro-Bold;
+  font-weight: bold;
+  font-size: 15px;
+  margin:10px;
+}
+.footerImage{
+  position: relative;
+}
+.social_media
+{
+  position: absolute;
+  top: 2px;
+  right: 20px;
+}
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(font/SourceSansPro-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: SourceSansPro-Semibold;
+  src: url(font/SourceSansPro-Semibold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: SourceSansPro-Black;
+  src: url(font/SourceSansPro-Black.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: SourceSansPro-ExtraLight;
+  src: url(font/SourceSansPro-ExtraLight.otf);
+  font-weight: normal;
+}
